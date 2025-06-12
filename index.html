@@ -2,17 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Penny Pal</title>
+  <title>Penny Pal - Privacy-Focused Personal Finance App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; }
-    h1 { color: #4b8c7b; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #4b8c7b;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      color: #2c5a4d;
+      margin-top: 1.5em;
+    }
+    .feature-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .feature-list li {
+      margin: 1em 0;
+      padding-left: 1.5em;
+      position: relative;
+    }
+    .feature-list li:before {
+      content: "✓";
+      color: #4b8c7b;
+      position: absolute;
+      left: 0;
+    }
+    .contact {
+      margin-top: 2em;
+      padding-top: 1em;
+      border-top: 1px solid #eee;
+    }
+    .highlight {
+      background: #f5f9f8;
+      padding: 1em;
+      border-radius: 8px;
+      margin: 1em 0;
+    }
+    .app-screenshot {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      margin: 2em auto;
+      display: block;
+    }
+    .screenshot-container {
+      text-align: center;
+      margin: 2em 0;
+    }
+    .screenshot-caption {
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 0.5em;
+    }
   </style>
 </head>
 <body>
-  <h1>Penny Pal</h1>
-  <p>Penny Pal is a personal finance app for simple, privacy-friendly expense tracking and transaction grooming.</p>
-  <p>This site is a placeholder while we build something awesome!</p>
-  <p>Contact: <a href="mailto:adam@penny-pal.com">adam@penny-pal.com</a></p>
+  <div class="container">
+    <h1>Penny Pal</h1>
+    <p class="highlight">
+      Your privacy-focused companion for smart personal finance management. Penny Pal helps you track expenses, 
+      categorize transactions, and maintain financial clarity without compromising your data privacy.
+    </p>
+
+    <div class="screenshot-container">
+      <img src="screenshot.png" alt="Penny Pal App Interface" class="app-screenshot">
+      <p class="screenshot-caption">Experience the simplicity and power of Penny Pal's intuitive interface</p>
+    </div>
+
+    <h2>Why Choose Penny Pal?</h2>
+    <ul class="feature-list">
+      <li><strong>Privacy First:</strong> Your financial data stays on your device. We don't sell or share your information.</li>
+      <li><strong>Smart Categorization:</strong> Automatically categorize your transactions with our intelligent system.</li>
+      <li><strong>Expense Tracking:</strong> Easily track and monitor your spending patterns with intuitive visualizations.</li>
+      <li><strong>Transaction Grooming:</strong> Clean up and organize your financial records with powerful editing tools.</li>
+      <li><strong>Offline Access:</strong> Access your financial data anytime, even without an internet connection.</li>
+    </ul>
+
+    <h2>Perfect For</h2>
+    <ul class="feature-list">
+      <li>Individuals who value their financial privacy</li>
+      <li>People looking for a simple yet powerful expense tracker</li>
+      <li>Users who want to maintain control of their financial data</li>
+      <li>Anyone seeking to better understand their spending habits</li>
+    </ul>
+
+    <div class="contact">
+      <p>Ready to take control of your finances? Contact us at: <a href="mailto:adam@penny-pal.com">adam@penny-pal.com</a></p>
+    </div>
+  </div>
 </body>
 </html>
